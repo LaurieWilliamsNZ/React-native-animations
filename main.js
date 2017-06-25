@@ -24,6 +24,7 @@ class App extends React.Component {
         title={text}
         image={{uri: uri}}
       >
+        <Text>Some random text about this card</Text>
         <Button
           icon={{name: 'code'}}
           backgroundColor='#03A9F4'
